@@ -4,6 +4,7 @@ frontend:
     preBuild:
       commands:
         - cd frontend
+        - mkdir dist
         - npm ci
     build:
       commands:
