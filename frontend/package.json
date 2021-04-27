@@ -1,0 +1,65 @@
+{
+  "name": "innovator-island-frontend",
+  "version": "1.0.0",
+  "description": "Frontend app for the Innovator Island workshop.",
+  "author": "James Beswick <jbeswick@amazon.com>, @jbesw",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "aws-iot-device-sdk": "^2.2.6",
+    "aws-sdk": "^2.839.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "leaflet": "^1.7.1",
+    "sweetalert2": "^10.14.0",
+    "v-tooltip": "^3.0.0-alpha.21",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.22.4",
+    "vue-popperjs": "^2.3.0",
+    "vue-router": "^3.5.1",
+    "vue-silentbox": "^2.4.0",
+    "vue2-leaflet": "^2.6.0",
+    "vueperslides": "^2.12.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
