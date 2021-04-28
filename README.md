@@ -35,3 +35,11 @@ Innovator Island Amplify Theme Park
     AWS Region: us-east-2
 ```
 4. Update the `frontend/src/config.js` file setting the `iot` values to match the results from the output
+
+## Add Chromakey Lambda Function
+1. Change directory to `cd ./backend/photos/1-chromakey/`
+2. Add the new lambda function with the `./chromakey.sh` script
+3. Note the upload bucket output from the script
+4. Test the upload `aws s3 cp ./green-screen-test.png s3://youruploadbucketname`
+5. In the AWS console, navigate to the S3 service and select the `theme-park-backend-processingbucket` bucket
+6. Download and view the `green-screen-test.png` object
