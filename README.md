@@ -8,23 +8,30 @@ Innovator Island Amplify Theme Park
 
 ## Getting Started with AWS Amplify Framework
 
-* Install the latest Amplify CLI version
+1. Install the latest Amplify CLI version
     `npm install -g @aws-amplify/cli`
-* Follow this [guide](https://docs.amplify.aws/cli/start/install#configure-the-amplify-cli) to configure Amplify
-* Configuration of VueJs app located in `frontend` dir. 
-* Create a new Amplify host web app using the `amplify.yml` build settings.
+2. Follow this [guide](https://docs.amplify.aws/cli/start/install#configure-the-amplify-cli) to configure Amplify
+3. Configuration of VueJs app located in `frontend` dir. 
+4. Create a new Amplify host web app using the `amplify.yml` build settings.
 
 ## Getting Started with AWS Serverless Application Model (SAM)
 
-* Install the latest SAM CLI following the installation [guide](https://aws.amazon.com/serverless/sam/)
-* Change directory to `cd bootsrap`
-* Prep your environment with the `./bootstrap.sh` script
+1. Install the latest SAM CLI following the installation [guide](https://aws.amazon.com/serverless/sam/)
+2. Change directory to `cd bootsrap`
+3. Prep your environment with the `./bootstrap.sh` script
     NOTE: This script is assuming an Ubuntu linux distribution
-* Setup the backend resources with the `./setup-backend.sh` script
-* Copy the API Endpoint provided in the last line of the output
+4. Setup the backend resources with the `./setup-backend.sh` script
+5. Copy the API Endpoint provided in the last line of the output
   Should be similar to `https://glkvjnngck.execute-api.us-east-2.amazonaws.com/Prod/InitState/`
+6. Update the `frontend/src/config.js` file `initStateAPI` value to match the new API URL
 
-## Update the front end
-
-* Update the `frontend/src/config.js` file `initStateAPI` value to match the new API URL
-
+## Add Real-time Messaging
+1. Change directory to `cd bootsrap`
+2. Add the new Lambda function with the `./messaging.sh` script
+3. Note the three output variables from the script:
+```
+    Cognito Pool: us-east-2:adebd190-8590-47e7-9c0b-15ff289e50d6
+    IOT Endpoint: a1c4z5dui0bt0v-ats.iot.us-east-2.amazonaws.com
+    AWS Region: us-east-2
+```
+4. Update the `frontend/src/config.js` file setting the `iot` values to match the results from the output

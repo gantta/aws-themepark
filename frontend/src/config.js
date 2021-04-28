@@ -12,9 +12,9 @@ export const appConfig = {
   initStateAPI: 'https://glkvjnngck.execute-api.us-east-2.amazonaws.com/Prod/InitState/', // e.g. https://12abcdef89.execute-api.us-west-2.amazonaws.com/Prod/InitState/
   // MODULE 2 - REALTIME
   iot: {
-    poolId: '', // e.g. 'us-west-2:1abcdef-1234-abcd-1234-abcde123456'
-    host: '', // e.g. 'ab12ab12abcde.iot.us-east-1.amazonaws.com'
-    region: '' // e.g. 'us-west-1'
+    poolId: 'us-east-2:adebd190-8590-47e7-9c0b-15ff289e50d6', // e.g. 'us-west-2:1abcdef-1234-abcd-1234-abcde123456'
+    host: 'a1c4z5dui0bt0v-ats.iot.us-east-2.amazonaws.com', // e.g. 'ab12ab12abcde.iot.us-east-1.amazonaws.com'
+    region: 'us-east-2' // e.g. 'us-west-1'
   },
   // MODULE 3 - PHOTOS
   photoUploadURL: '', // e.g. https://12abcdfg89.execute-api.us-west-2.amazonaws.com/Prod/Upload
