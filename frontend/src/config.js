@@ -15,7 +15,7 @@ export const appConfig = {
     host: 'a1c4z5dui0bt0v-ats.iot.us-east-2.amazonaws.com', // e.g. 'ab12ab12abcde.iot.us-east-1.amazonaws.com'
     region: 'us-east-2' // e.g. 'us-west-1'
   },
-  photoUploadURL: '', // e.g. https://12abcdfg89.execute-api.us-west-2.amazonaws.com/Prod/Upload
+  photoUploadURL: 'https://glkvjnngck.execute-api.us-east-2.amazonaws.com/Prod/Upload', // e.g. https://12abcdfg89.execute-api.us-west-2.amazonaws.com/Prod/Upload
   //
   // Don't modify anything below this comment!
   //
