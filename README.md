@@ -43,3 +43,11 @@ Innovator Island Amplify Theme Park
 4. Test the upload `aws s3 cp ./green-screen-test.png s3://youruploadbucketname`
 5. In the AWS console, navigate to the S3 service and select the `theme-park-backend-processingbucket` bucket
 6. Download and view the `green-screen-test.png` object
+
+## Add Processing Lambda Function
+1. Change directory to `cd ./backend/photos/2-processing/`
+2. Add the new lambda function with the `./processing.sh` script
+3. Note the upload bucket output from the script
+4. Test the upload `aws s3 cp ./green-screen-test.png s3://youruploadbucketname`
+5. In the AWS console, navigate to the S3 service and select the `theme-park-backend-finalbucket` bucket
+6. Download and view the `green-screen-test.jpg` object
