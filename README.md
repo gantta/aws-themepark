@@ -60,4 +60,4 @@ Innovator Island Amplify Theme Park
 
 ## Add Translation
 1. Change directory to `cd ./bootstrap/`
-2. Run the local translation app with the `
+2. Run the local translation app with the `./translations.sh` script
