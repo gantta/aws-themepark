@@ -57,3 +57,7 @@ Innovator Island Amplify Theme Park
 2. Add the new lambda function with the `./postprocessing.sh` script
 3. Note the photo upload URL output from the script
 4. Update the `frontend/src/config.js` file setting the `photoUploadURL` value to match the results from the output
+
+## Add Translation
+1. Change directory to `cd ./bootstrap/`
+2. Run the local translation app with the `
